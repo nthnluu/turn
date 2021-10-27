@@ -1,15 +1,16 @@
 {
-  "name": "nitre-workflows",
+  "name": "blaze-lang",
   "author": "nthnluu",
-  "version": "1.0.8",
+  "version": "1.0.0",
   "description": "A JSON-based programming language and interpreter.",
+  "repository": "https://github.com/nthnluu/blaze",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "license": "MIT",
   "scripts": {
     "build": "tsc",
     "test": "jest --config jestconfig.json",
-    "prepublishOnly" : "npm run test",
+    "prepublishOnly": "npm run test",
     "prepare": "npm run build"
   },
   "devDependencies": {
